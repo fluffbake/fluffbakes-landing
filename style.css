@@ -1,0 +1,76 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fff8f0;
+  color: #333;
+}
+header.hero {
+  background: #f6c9c4;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+.hero h1 {
+  font-size: 3em;
+}
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #fff;
+  color: #d45c5c;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.section {
+  padding: 40px 20px;
+  max-width: 960px;
+  margin: auto;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.price-list {
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+input, select, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #f08080;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: #e06666;
+}
+footer {
+  background: #f6c9c4;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+}
